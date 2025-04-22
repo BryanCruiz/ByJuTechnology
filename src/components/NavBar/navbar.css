@@ -1,0 +1,97 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #111827;
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .logo {
+    height: 50px;
+    width: auto;
+    margin-right: auto;
+  }
+  
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s;
+    border-radius: 5px;
+    font-weight: 500; /* un poco menos que bold */
+
+  }
+
+  .nav-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #22698a; /* color de la línea */
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .nav-links a:hover {
+    color: #8d0a96; /* o el color que prefieras */
+  }
+  
+  .nav-links a:hover::after {
+    width: 100%;
+  }
+
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .line {
+    width: 25px;
+    height: 3px;
+    background: rgb(255, 255, 255);
+    margin: 4px;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      position: absolute;
+      top: 80px;
+      right: 0;
+      background-color: #111827ee;
+      flex-direction: column;
+      width: 200px;
+      display: none;
+      padding: 20px;
+      border-radius: 0px 0px 0px 50px;
+
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+
+   
+    
+    
+    
+  }
+  
