@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './about.css';
 import equipoImage from '../../assets/Logotipo__BYJU.png';
-import valoresImage from '../../assets/ImagenTwo1.png'; // Imagen adicional
+import valoresImage from '../../assets/FotoNosotros.png'; // Imagen adicional
 
 const About = () => {
   const [showModal, setShowModal] = useState(false);
@@ -31,7 +31,7 @@ const About = () => {
       {showModal && (
         <div className="modal-overlay" onClick={() => setShowModal(false)}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-           <img src={require('../../assets/Logotipo__BYJU_New.png')} alt="Logo" className="logoModal" />
+           <img src={require('../../assets/FotoVMV.png')} alt="Logo" className="logoModal" />
 
             <p><strong>Misión:</strong> Ofrecer soluciones tecnológicas innovadoras que impulsen el crecimiento y éxito de nuestros clientes.</p>
            <br></br>

@@ -18,15 +18,15 @@ section {
 .about-dividerA {
   border: none;
   height: 1px;
-  background-color: #8d0a96; /* o el color que quieras */
+  background-color: #111827ee; /* o el color que quieras */
   margin: 5px 50px;
   width: 85%; /* puedes ajustar el ancho */
 }
 
-.about-dividerS {
+.about-dividerT {
   border: none;
   height: 1px;
-  background-color: #010101; /* o el color que quieras */
-  margin: 0px 50px;
+  background-color: #8a3797ee; /* o el color que quieras */
+  margin: 50px 50px;
   width: 85%; /* puedes ajustar el ancho */
 }

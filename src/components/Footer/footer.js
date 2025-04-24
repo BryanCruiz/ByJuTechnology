@@ -17,7 +17,7 @@ const Footer = () => {
           <a href="#about">About</a>
           <a href="#servicios">Servicios</a>
           <a href="#contacto">Contacto</a>
-          <a href="#portafolio">Portafolio</a>
+          <a href="#testimonios">Testimonios</a>
         </div>
 
         <div className="footer-section social">

@@ -35,7 +35,7 @@ const Navbar = () => {
         <a href="#about" className={activeSection === 'about' ? 'active' : ''}>Nosotros</a>
         <a href="#servicios" className={activeSection === 'servicios' ? 'active' : ''}>Servicios</a>
         <a href="#contacto" className={activeSection === 'contacto' ? 'active' : ''}>Contacto</a>
-        <a href="#portafolio" className={activeSection === 'portafolio' ? 'active' : ''}>Portafolio</a>
+        <a href="#testimonios" className={activeSection === 'testimonios' ? 'active' : ''}>Testimonios</a>
       </div>
 
       <div className="hamburger" onClick={toggleMenu}>

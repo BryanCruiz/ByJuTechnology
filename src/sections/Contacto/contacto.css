@@ -1,7 +1,11 @@
 .contact-section {
   padding: 60px 20px;
-  background-color: #ffffff;
+  background-image: url('../../assets/ImagenContacto.png');
+  background-Size: cover;
+  background-Position: 'center';
+  background-Repeat: 'no-repeat';
 }
+
 
 .contact-container {
   display: flex;

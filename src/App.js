@@ -4,7 +4,7 @@ import Home from './sections/Home/home'
 import About from './sections/About/about'
 import Servicio from './sections/Servicios/servicios'
 import Contacto from './sections/Contacto/contacto'
-import Portafolio from './sections/Portafolio/portafolio'
+import Testimonios from './sections/Testimonios/testimonios'
 import Footer from './components/Footer/footer'
 import './App.css'
 
@@ -18,11 +18,11 @@ function App() {
       <hr className="about-dividerA" />
 
       <Servicio />
-      <hr className="about-dividerS" />
 
       <Contacto />
-
-      <Portafolio />
+      
+      <Testimonios />
+      <hr className="about-dividerT" />
 
       <Footer/>
     </>

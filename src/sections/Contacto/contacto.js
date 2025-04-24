@@ -40,11 +40,15 @@ const Contacto = () => {
                 <option value="">Selecciona un servicio</option>
                 <option value="Diseño web">Diseño web</option>
                 <option value="Desarrollo de aplicaciones">Desarrollo de aplicaciones</option>
+                <option value="Marketing digital">  Mantenimiento preventivo y correctivo(Computo)</option>
                 <option value="Marketing digital">Marketing digital</option>
-                <option value="E-commerce">E-commerce</option>
+                <option value="E-commerce">Diseño UI/UX</option>
+                <option value="E-commerce">Desalló de sistemas(Negocios)</option>
+                <option value="E-commerce">Chatbots inteligentes</option>
+                <option value="E-commerce">Optimización de SEO</option>
               </select>
 
-              <textarea name="message" rows="5" placeholder="Describe tu proyecto o idea" required></textarea>
+              <textarea name="message" rows="5" placeholder="Describe tu proyecto o el servicio que requieres" required></textarea>
               <button type="submit">Enviar Cotización</button>
             </form>
           )}
