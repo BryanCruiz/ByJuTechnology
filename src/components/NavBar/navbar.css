@@ -46,7 +46,7 @@
   }
   
   .nav-links a:hover {
-    color: #8d0a96; /* o el color que prefieras */
+    color: #8d0a96; 
   }
   
   .nav-links a:hover::after {
@@ -91,6 +91,14 @@
 
    
     
+    .nav-links a.active {
+      color: #8d0a96;
+      font-weight: bold;
+    }
+    
+    .nav-links a.active::after {
+      width: 100%;
+    }
     
     
   }

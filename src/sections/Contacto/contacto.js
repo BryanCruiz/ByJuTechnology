@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './contacto.css';
-import contactImage from '../../assets/Logotipo__BYJU_New.png'; // Asegúrate que esta imagen exista
 
 const Contacto = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -27,12 +26,9 @@ const Contacto = () => {
   return (
     <section id="contacto" className="contact-section">
       <div className="contact-container">
-        <div className="contact-image">
-          <img src={contactImage} alt="Contacto" />
-        </div>
-
+        
         <div className="contact-form">
-          <h2>Solicita tu Cotización</h2>
+          <h2>¡Contacta ya!</h2>
           {submitted ? (
             <p className="success-message">¡Gracias! Te contactaremos pronto.</p>
           ) : (

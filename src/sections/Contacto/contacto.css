@@ -1,6 +1,6 @@
 .contact-section {
   padding: 60px 20px;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 
 .contact-container {
@@ -10,21 +10,9 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  
 }
 
-.contact-image {
-  flex: 1;
-  min-width: 300px;
-  max-width: 500px;
-  padding: 20px;
-}
-
-.contact-image img {
-  width: 100%;
-  border-radius: 12px;
-  object-fit: cover;
-  box-shadow: 0 4px 12px rgba(184, 17, 164, 0.335);
-}
 
 .contact-form {
   flex: 1;
@@ -35,6 +23,7 @@
   border-radius: 16px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.341);
   margin: 20px;
+  border: 1px solid hsla(0, 0%, 4%, 0.355);
 }
 
 .contact-form h2 {

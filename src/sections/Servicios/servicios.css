@@ -1,6 +1,6 @@
 .services {
   padding: 60px 20px;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   text-align: center;
 }
 
@@ -9,6 +9,9 @@
   margin-bottom: 40px;
   color: #111827;
   font-weight: bold;
+}
+.wordService{
+  color: #0374ee;
 }
 
 .services-grid {
@@ -23,8 +26,9 @@
   background-color: #fff;
   padding: 30px 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.26);
+  box-shadow: 0 4px 15px hsla(0, 0%, 47%, 0.572);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid hsl(211, 100%, 50%);
 }
 
 .service-card:hover {
@@ -34,8 +38,8 @@
 
 .service-icon {
   font-size: 3rem;
-  color: #007bff;
-  margin-bottom: 20px;
+  color: hsl(211, 100%, 50%);
+  margin-bottom: 10px;
 }
 
 .service-card h3 {
@@ -51,3 +55,14 @@
   line-height: 1.6;
   text-align: justify;
 }
+
+.about-divider {
+  border: none;
+  height: 1px;
+  background-color: hsl(211, 100%, 50%); /* o el color que quieras */
+  margin: 10px 50px;
+  width: 60%; /* puedes ajustar el ancho */
+}
+
+
+

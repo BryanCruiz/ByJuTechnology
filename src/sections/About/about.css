@@ -1,6 +1,6 @@
 .about {
   padding: 80px 40px;
-  background-color: #f4f4f4;
+  background-color: #ffffff;
 }
 
 .about-container {
@@ -127,3 +127,5 @@
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
+
+

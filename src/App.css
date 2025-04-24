@@ -14,3 +14,19 @@ section {
   min-height: 100vh;
   padding: 80px 20px;
 }
+
+.about-dividerA {
+  border: none;
+  height: 1px;
+  background-color: #8d0a96; /* o el color que quieras */
+  margin: 5px 50px;
+  width: 85%; /* puedes ajustar el ancho */
+}
+
+.about-dividerS {
+  border: none;
+  height: 1px;
+  background-color: #010101; /* o el color que quieras */
+  margin: 0px 50px;
+  width: 85%; /* puedes ajustar el ancho */
+}
