@@ -31,10 +31,10 @@ const Navbar = () => {
       <img src={require('../../assets/Logotipo__BYJU_New.png')} alt="Logo" className="logo" />
 
       <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
-        <a href="#inicio" className={activeSection === 'inicio' ? 'active' : ''}>Inicio</a>
-        <a href="#about" className={activeSection === 'about' ? 'active' : ''}>Nosotros</a>
-        <a href="#servicios" className={activeSection === 'servicios' ? 'active' : ''}>Servicios</a>
+        <a href="#home" className={activeSection === 'home' ? 'active' : ''}>Inicio</a>
         <a href="#contacto" className={activeSection === 'contacto' ? 'active' : ''}>Contacto</a>
+        <a href="#servicios" className={activeSection === 'servicios' ? 'active' : ''}>Servicios</a>
+        <a href="#about" className={activeSection === 'about' ? 'active' : ''}>Nosotros</a>
         <a href="#testimonios" className={activeSection === 'testimonios' ? 'active' : ''}>Testimonios</a>
       </div>
 

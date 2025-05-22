@@ -1,6 +1,6 @@
 .services {
   padding: 60px 20px;
-  background-color: #ffffff;
+  background-image: linear-gradient(to bottom, rgba(152, 181, 255, 0.413), rgba(255, 255, 255, 0.8));
   text-align: center;
 }
 

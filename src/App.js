@@ -6,6 +6,7 @@ import Servicio from './sections/Servicios/servicios'
 import Contacto from './sections/Contacto/contacto'
 import Testimonios from './sections/Testimonios/testimonios'
 import Footer from './components/Footer/footer'
+import Whatsapp from './components/WhatsApp/whatsapp'
 import './App.css'
 
 function App() {
@@ -13,17 +14,16 @@ function App() {
     <>
       <Navbar />
       <Home />
-
-      <About />
+   
       <hr className="about-dividerA" />
-
-      <Servicio />
-
       <Contacto />
-      
-      <Testimonios />
+      <Servicio />
       <hr className="about-dividerT" />
-
+      <About />
+      
+      <hr className="about-dividerS" />
+      <Testimonios />
+      <Whatsapp />
       <Footer/>
     </>
   )

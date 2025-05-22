@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: #111827;
+    background-color: #111827;  
     color: #ffffff;
     position: sticky;
     top: 0;
@@ -30,7 +30,7 @@
     padding: 10px 15px;
     transition: color 0.3s;
     border-radius: 5px;
-    font-weight: 500; /* un poco menos que bold */
+    font-weight: 600; /* un poco menos que bold */
 
   }
 

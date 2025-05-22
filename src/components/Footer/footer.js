@@ -10,7 +10,6 @@ const Footer = () => {
           <h2>ByJu Technologies</h2>
           <p>Tu aliado en soluciones digitales.</p>
         </div>
-
         <div className="footer-section links">
           <h3>Navegación</h3>
           <a href="#inicio">Inicio</a>

@@ -19,12 +19,18 @@
     min-width: 220px;
   }
   
-  .footer-section h2,
-  .footer-section h3 {
+  .footer-section h2 {
     color: #ffffff;
     margin-bottom: 10px;
   }
   
+ 
+  .footer-section h3 {
+    color: #ffffff;
+    margin-bottom: 7px;
+    font-size: 22px;
+  }
+
   .footer-section p {
     color: #9ca3af;
     font-size: 14px;
@@ -70,5 +76,5 @@
   .footer-section a:hover {
     color: #8d0a96;
   }
-
+ 
  

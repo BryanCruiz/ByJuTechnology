@@ -30,3 +30,8 @@ section {
   margin: 50px 50px;
   width: 85%; /* puedes ajustar el ancho */
 }
+
+.about-dividerS {
+  background-color: #8a3797; /* o el color que quieras */
+}
+
