@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './contacto.css';
-import contactoImg from '../../assets/Logotipo__BYJU.png'; // Asegúrate de que esta ruta sea correcta
+import contactoImg from '../../assets/ImgFondo_01.png'; // Asegúrate de que esta ruta sea correcta
 
 const Contacto = () => {
   const [submitted, setSubmitted] = useState(false);

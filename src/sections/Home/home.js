@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-import heroImage from '../../assets/Logotipo__BYJU.png'; // Cambia esto según tu imagen
+import heroImage from '../../assets/ImgFondo_02.png'; // Cambia esto según tu imagen
 
 const Home = () => {
   return (

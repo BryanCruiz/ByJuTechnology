@@ -57,10 +57,11 @@
   flex: 1;
   min-width: 300px;
   text-align: center;
+  margin-top: auto;
 }
 
 .image-content img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   border-radius: 10px;
 }
